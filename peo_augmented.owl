@@ -1,0 +1,643 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF
+   xmlns:owl="http://www.w3.org/2002/07/owl#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+   xmlns:untitled-ontology-11="http://www.semanticweb.org/robertobarile/ontologies/2026/4/untitled-ontology-11#"
+>
+  <rdf:Description rdf:nodeID="N283e8115cc324ad189580ef7dbcfb6be">
+    <owl:inverseOf rdf:resource="http://www.semanticweb.org/robertobarile/ontologies/2026/4/untitled-ontology-11#follows"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/robertobarile/ontologies/2026/4/untitled-ontology-11#model">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://www.semanticweb.org/robertobarile/ontologies/2026/4/untitled-ontology-11#FoundationModel"/>
+    <untitled-ontology-11:hasArchitecture rdf:resource="http://www.semanticweb.org/robertobarile/ontologies/2026/4/untitled-ontology-11#architecture1"/>
+    <untitled-ontology-11:hasEvolution rdf:resource="http://www.semanticweb.org/robertobarile/ontologies/2026/4/untitled-ontology-11#model2"/>
+    <untitled-ontology-11:supportedDataModality rdf:datatype="http://www.semanticweb.org/robertobarile/ontologies/2026/4/untitled-ontology-11#dataModality">natural language</untitled-ontology-11:supportedDataModality>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/robertobarile/ontologies/2026/4/untitled-ontology-11#FoundationModel">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:nodeID="N85f0a03c1d684b9c9f2aa8ab994ef299"/>
+    <rdfs:subClassOf rdf:nodeID="N3db9ef7e41ad4869b2c8ec91b6009aae"/>
+    <rdfs:subClassOf rdf:nodeID="Nc57323771a67464ab8fa547d782ee8f7"/>
+    <rdfs:subClassOf rdf:nodeID="N027cd3602c0c494c94e431aa727999d4"/>
+    <rdfs:subClassOf rdf:nodeID="N5c22fb6cac3f4242aa4a80cfb1c01caf"/>
+    <rdfs:subClassOf rdf:nodeID="Nb7555d1673a54ae281c6fa6f06721cda"/>
+    <rdfs:subClassOf rdf:nodeID="Nf9d91294dad7474ca32465f9a7523da7"/>
+    <rdfs:subClassOf rdf:nodeID="N36fad4598a374ea4979f20510597809c"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/robertobarile/ontologies/2026/4/untitled-ontology-11#constraintValue">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+    <rdfs:domain rdf:resource="http://www.semanticweb.org/robertobarile/ontologies/2026/4/untitled-ontology-11#Constraint"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/robertobarile/ontologies/2026/4/untitled-ontology-11#Response">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N3db9ef7e41ad4869b2c8ec91b6009aae">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+    <owl:onProperty rdf:resource="http://www.semanticweb.org/robertobarile/ontologies/2026/4/untitled-ontology-11#hasArchitecture"/>
+    <owl:allValuesFrom rdf:resource="http://www.semanticweb.org/robertobarile/ontologies/2026/4/untitled-ontology-11#Architecture"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Ne07063834f2d49e1bb6de443d17ec34b">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+    <owl:onProperty rdf:resource="http://www.semanticweb.org/robertobarile/ontologies/2026/4/untitled-ontology-11#hasConstraint"/>
+    <owl:allValuesFrom rdf:resource="http://www.semanticweb.org/robertobarile/ontologies/2026/4/untitled-ontology-11#Constraint"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N5c7e6fb2c6a64a239cefdffce19a0a17">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+    <owl:onProperty rdf:resource="http://www.semanticweb.org/robertobarile/ontologies/2026/4/untitled-ontology-11#isHeldWith"/>
+    <owl:allValuesFrom rdf:resource="http://www.semanticweb.org/robertobarile/ontologies/2026/4/untitled-ontology-11#FoundationModel"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Nf632c140bd2940bea965e8121f5a119a">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+    <owl:onProperty rdf:resource="http://www.semanticweb.org/robertobarile/ontologies/2026/4/untitled-ontology-11#isHeldWith"/>
+    <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/robertobarile/ontologies/2026/4/untitled-ontology-11#FoundationModel"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Ne862a89248744c7a8ffaddcf586296b5">
+    <rdf:first rdf:resource="http://www.semanticweb.org/robertobarile/ontologies/2026/4/untitled-ontology-11#Prompt"/>
+    <rdf:rest rdf:nodeID="N5a03077207874023ada4cfba96f78045"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/robertobarile/ontologies/2026/4/untitled-ontology-11#operator">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+    <rdfs:domain rdf:resource="http://www.semanticweb.org/robertobarile/ontologies/2026/4/untitled-ontology-11#Constraint"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/robertobarile/ontologies/2026/4/untitled-ontology-11#targetDataModality">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+    <rdfs:domain rdf:resource="http://www.semanticweb.org/robertobarile/ontologies/2026/4/untitled-ontology-11#Task"/>
+    <rdfs:range rdf:resource="http://www.semanticweb.org/robertobarile/ontologies/2026/4/untitled-ontology-11#dataModality"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Nf5f3faf258f5455c8b356f3deaec1797">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+    <owl:onProperty rdf:resource="http://www.semanticweb.org/robertobarile/ontologies/2026/4/untitled-ontology-11#targetDataModality"/>
+    <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/robertobarile/ontologies/2026/4/untitled-ontology-11#dataModality"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Nb63e012ee8634a5e9bcb1cf2e3de995a">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <owl:unionOf rdf:nodeID="N3ce31f6c3bc5450c80816db00e3cbd11"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/robertobarile/ontologies/2026/4/untitled-ontology-11#constraint1">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://www.semanticweb.org/robertobarile/ontologies/2026/4/untitled-ontology-11#Constraint"/>
+    <untitled-ontology-11:variable>test</untitled-ontology-11:variable>
+    <untitled-ontology-11:operator>equals</untitled-ontology-11:operator>
+    <untitled-ontology-11:constraintValue>test</untitled-ontology-11:constraintValue>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/robertobarile/ontologies/2026/4/untitled-ontology-11#hasEvolution">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AsymmetricProperty"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#IrreflexiveProperty"/>
+    <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/robertobarile/ontologies/2026/4/untitled-ontology-11#hasEvolutionAncestor"/>
+    <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/robertobarile/ontologies/2026/4/untitled-ontology-11#hasVariant"/>
+    <rdfs:domain rdf:resource="http://www.semanticweb.org/robertobarile/ontologies/2026/4/untitled-ontology-11#FoundationModel"/>
+    <rdfs:range rdf:resource="http://www.semanticweb.org/robertobarile/ontologies/2026/4/untitled-ontology-11#FoundationModel"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Ned671208a7d04c5ab302ba4fde6c6b9b">
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Datatype"/>
+    <owl:oneOf rdf:nodeID="Nbd57d4ae63784a5b98e6ca7a99db8b85"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/robertobarile/ontologies/2026/4/untitled-ontology-11#prompt1">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://www.semanticweb.org/robertobarile/ontologies/2026/4/untitled-ontology-11#Prompt"/>
+    <untitled-ontology-11:adoptsSuitableTechniqueFor rdf:resource="http://www.semanticweb.org/robertobarile/ontologies/2026/4/untitled-ontology-11#task1"/>
+    <untitled-ontology-11:isInChatWithFoundationModel rdf:resource="http://www.semanticweb.org/robertobarile/ontologies/2026/4/untitled-ontology-11#model"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Nbd57d4ae63784a5b98e6ca7a99db8b85">
+    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#List"/>
+    <rdf:first>audio</rdf:first>
+    <rdf:rest rdf:nodeID="Naf3ccb4117fa4fd8ba5421c0fab3b5cb"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/robertobarile/ontologies/2026/4/untitled-ontology-11#isInChatTargeting">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdfs:domain rdf:nodeID="N22a14ef6beb04f699c1328a89ca287d5"/>
+    <rdfs:range rdf:resource="http://www.semanticweb.org/robertobarile/ontologies/2026/4/untitled-ontology-11#Task"/>
+    <owl:propertyChainAxiom rdf:nodeID="N968abb13252d4abca92df1dbd6b25679"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N56de09a3bf2949f9a439ca09348273cc">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+    <owl:onProperty rdf:resource="http://www.semanticweb.org/robertobarile/ontologies/2026/4/untitled-ontology-11#constraintValue"/>
+    <owl:someValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Ne730a0a2175b406ab110476f519ac781">
+    <rdf:first rdf:resource="http://www.semanticweb.org/robertobarile/ontologies/2026/4/untitled-ontology-11#Chat"/>
+    <rdf:rest rdf:nodeID="Nfd09c83aded74c62af5aeed1e5216261"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/dc/terms/license">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AnnotationProperty"/>
+    <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2000/01/rdf-schema#comment"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Nada34112711a4ce59558d19f24575971">
+    <owl:inverseOf rdf:resource="http://www.semanticweb.org/robertobarile/ontologies/2026/4/untitled-ontology-11#isAdoptedIn"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N231f91ab2c57469cbeadc5e5a54d22f4">
+    <owl:inverseOf rdf:resource="http://www.semanticweb.org/robertobarile/ontologies/2026/4/untitled-ontology-11#hasMessage"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N2fe5b0f0972841a2b0136b69b2bb0a9a">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+    <owl:onProperty rdf:resource="http://www.semanticweb.org/robertobarile/ontologies/2026/4/untitled-ontology-11#parametersNumber"/>
+    <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+    <owl:onDataRange rdf:resource="http://www.w3.org/2001/XMLSchema#int"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N74e5b16a55c244c3b9675ebddd27612f">
+    <rdf:first rdf:resource="http://www.semanticweb.org/robertobarile/ontologies/2026/4/untitled-ontology-11#Response"/>
+    <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N5c22fb6cac3f4242aa4a80cfb1c01caf">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+    <owl:onProperty rdf:resource="http://www.semanticweb.org/robertobarile/ontologies/2026/4/untitled-ontology-11#supportedDataModality"/>
+    <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/robertobarile/ontologies/2026/4/untitled-ontology-11#dataModality"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Nfb36db06a0b64a50a2f2acd6df24327e">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+    <owl:onProperty rdf:resource="http://www.semanticweb.org/robertobarile/ontologies/2026/4/untitled-ontology-11#constraintValue"/>
+    <owl:allValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/robertobarile/ontologies/2026/4/untitled-ontology-11#model2">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://www.semanticweb.org/robertobarile/ontologies/2026/4/untitled-ontology-11#FoundationModel"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/robertobarile/ontologies/2026/4/untitled-ontology-11#task1">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://www.semanticweb.org/robertobarile/ontologies/2026/4/untitled-ontology-11#Task"/>
+    <untitled-ontology-11:hasConstraint rdf:resource="http://www.semanticweb.org/robertobarile/ontologies/2026/4/untitled-ontology-11#constraint1"/>
+    <untitled-ontology-11:targetDataModality rdf:datatype="http://www.semanticweb.org/robertobarile/ontologies/2026/4/untitled-ontology-11#dataModality">image</untitled-ontology-11:targetDataModality>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/robertobarile/ontologies/2026/4/untitled-ontology-11#isHeldWith">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdfs:domain rdf:resource="http://www.semanticweb.org/robertobarile/ontologies/2026/4/untitled-ontology-11#Chat"/>
+    <rdfs:range rdf:resource="http://www.semanticweb.org/robertobarile/ontologies/2026/4/untitled-ontology-11#FoundationModel"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N027cd3602c0c494c94e431aa727999d4">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+    <owl:onProperty rdf:resource="http://www.semanticweb.org/robertobarile/ontologies/2026/4/untitled-ontology-11#hasVariant"/>
+    <owl:allValuesFrom rdf:resource="http://www.semanticweb.org/robertobarile/ontologies/2026/4/untitled-ontology-11#FoundationModel"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/robertobarile/ontologies/2026/4/untitled-ontology-11#follows">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#TransitiveProperty"/>
+    <rdfs:domain rdf:nodeID="N5e0ce642b16a4ef39a2e8603115e23ba"/>
+    <rdfs:range rdf:nodeID="N104049cc044c4297a73432448ebe3715"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N968abb13252d4abca92df1dbd6b25679">
+    <rdf:first rdf:nodeID="N344158fd7532446a880cfc9757556405"/>
+    <rdf:rest rdf:nodeID="N57890ee658734ab680a80ea6730b4e53"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/robertobarile/ontologies/2026/4/untitled-ontology-11#releaseYear">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+    <rdfs:domain rdf:resource="http://www.semanticweb.org/robertobarile/ontologies/2026/4/untitled-ontology-11#FoundationModel"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#gYear"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/robertobarile/ontologies/2026/4/untitled-ontology-11#isInChatWithFoundationModel">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdfs:domain rdf:nodeID="Nb63e012ee8634a5e9bcb1cf2e3de995a"/>
+    <rdfs:range rdf:resource="http://www.semanticweb.org/robertobarile/ontologies/2026/4/untitled-ontology-11#FoundationModel"/>
+    <owl:propertyChainAxiom rdf:nodeID="N585ec0d4213b44db8391a0ee39161189"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/robertobarile/ontologies/2026/4/untitled-ontology-11#hasConstraint">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdfs:domain rdf:resource="http://www.semanticweb.org/robertobarile/ontologies/2026/4/untitled-ontology-11#Task"/>
+    <rdfs:range rdf:resource="http://www.semanticweb.org/robertobarile/ontologies/2026/4/untitled-ontology-11#Constraint"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/robertobarile/ontologies/2026/4/untitled-ontology-11#response1">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://www.semanticweb.org/robertobarile/ontologies/2026/4/untitled-ontology-11#Response"/>
+    <untitled-ontology-11:directlyFollows rdf:resource="http://www.semanticweb.org/robertobarile/ontologies/2026/4/untitled-ontology-11#prompt1"/>
+    <untitled-ontology-11:isInChatWithFoundationModel rdf:resource="http://www.semanticweb.org/robertobarile/ontologies/2026/4/untitled-ontology-11#model"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/robertobarile/ontologies/2026/4/untitled-ontology-11#variable">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+    <rdfs:domain rdf:resource="http://www.semanticweb.org/robertobarile/ontologies/2026/4/untitled-ontology-11#Constraint"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Nc56300123b064ec59991dfd776e67846">
+    <rdf:first rdf:resource="http://www.semanticweb.org/robertobarile/ontologies/2026/4/untitled-ontology-11#Response"/>
+    <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N7bc60ec6b8494180b5d2baa61698a950">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+    <owl:onProperty rdf:resource="http://www.semanticweb.org/robertobarile/ontologies/2026/4/untitled-ontology-11#hasMessage"/>
+    <owl:allValuesFrom rdf:nodeID="Nade7d2e86f6d499e9e7560a8a5ed68fa"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N3bfb38776fb84c6f941eee02def4b914">
+    <rdf:first rdf:resource="http://www.semanticweb.org/robertobarile/ontologies/2026/4/untitled-ontology-11#Response"/>
+    <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/robertobarile/ontologies/2026/4/untitled-ontology-11#parametersNumber">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+    <rdfs:domain rdf:resource="http://www.semanticweb.org/robertobarile/ontologies/2026/4/untitled-ontology-11#Architecture"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#int"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N53a01e11b6584417b5a41595d435328e">
+    <rdf:first rdf:resource="http://www.semanticweb.org/robertobarile/ontologies/2026/4/untitled-ontology-11#Prompt"/>
+    <rdf:rest rdf:nodeID="Na6f1966c15374db2b7abe7be10f5f143"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/robertobarile/ontologies/2026/4/untitled-ontology-11#hasVariant">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#SymmetricProperty"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#IrreflexiveProperty"/>
+    <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/robertobarile/ontologies/2026/4/untitled-ontology-11#hasVariantAncestor"/>
+    <rdfs:domain rdf:resource="http://www.semanticweb.org/robertobarile/ontologies/2026/4/untitled-ontology-11#FoundationModel"/>
+    <rdfs:range rdf:resource="http://www.semanticweb.org/robertobarile/ontologies/2026/4/untitled-ontology-11#FoundationModel"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N4e7bcd48af9645b3a6abe48793db8572">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+    <owl:onProperty rdf:resource="http://www.semanticweb.org/robertobarile/ontologies/2026/4/untitled-ontology-11#directlyFollows"/>
+    <owl:someValuesFrom rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Ndeaf51fe325e45bf9a91a7ae0e0b5c6f">
+    <rdf:first rdf:resource="http://www.semanticweb.org/robertobarile/ontologies/2026/4/untitled-ontology-11#isHeldWith"/>
+    <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N5e0ce642b16a4ef39a2e8603115e23ba">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <owl:unionOf rdf:nodeID="Ndbb8bb92d76342aa849487d879d99ec2"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/robertobarile/ontologies/2026/4/untitled-ontology-11#adoptsSuitableTechniqueFor">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdfs:domain rdf:resource="http://www.semanticweb.org/robertobarile/ontologies/2026/4/untitled-ontology-11#Prompt"/>
+    <rdfs:range rdf:resource="http://www.semanticweb.org/robertobarile/ontologies/2026/4/untitled-ontology-11#Task"/>
+    <owl:propertyChainAxiom rdf:nodeID="Na011504554a34297a45687c8dd9282b0"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Na9d64188bcae4391b3edbb4d6e13c444">
+    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#List"/>
+    <rdf:first>image</rdf:first>
+    <rdf:rest rdf:nodeID="N4c5452dd0c9f46a9912a25a94366419f"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/robertobarile/ontologies/2026/4/untitled-ontology-11#Constraint">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:nodeID="N56de09a3bf2949f9a439ca09348273cc"/>
+    <rdfs:subClassOf rdf:nodeID="N3f0bcf3d74914760b870e68a2cb34681"/>
+    <rdfs:subClassOf rdf:nodeID="N65a781b96eae44c0afecd40c1c8231ee"/>
+    <rdfs:subClassOf rdf:nodeID="Nfb36db06a0b64a50a2f2acd6df24327e"/>
+    <rdfs:subClassOf rdf:nodeID="Nae20c5d635714825939733e2569e7d52"/>
+    <rdfs:subClassOf rdf:nodeID="Nb997d90f0cf246c399c2a33934f9c711"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N8a0b5ac9e357473eac204adb3c3c3c12">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <owl:unionOf rdf:nodeID="Ne862a89248744c7a8ffaddcf586296b5"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/robertobarile/ontologies/2026/4/untitled-ontology-11#hasEvolutionAncestor">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#TransitiveProperty"/>
+    <rdfs:domain rdf:resource="http://www.semanticweb.org/robertobarile/ontologies/2026/4/untitled-ontology-11#FoundationModel"/>
+    <rdfs:range rdf:resource="http://www.semanticweb.org/robertobarile/ontologies/2026/4/untitled-ontology-11#FoundationModel"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Ne4f16e1125794b3eb42c0b5f2fdf3ec8">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+    <owl:onProperty rdf:resource="http://www.semanticweb.org/robertobarile/ontologies/2026/4/untitled-ontology-11#isAdoptedIn"/>
+    <owl:allValuesFrom rdf:resource="http://www.semanticweb.org/robertobarile/ontologies/2026/4/untitled-ontology-11#Prompt"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Nb997d90f0cf246c399c2a33934f9c711">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+    <owl:onProperty rdf:resource="http://www.semanticweb.org/robertobarile/ontologies/2026/4/untitled-ontology-11#variable"/>
+    <owl:allValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Nfce0bc1f89d749f5bc9549ebf8f80c82">
+    <rdf:first rdf:resource="http://www.semanticweb.org/robertobarile/ontologies/2026/4/untitled-ontology-11#Response"/>
+    <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Nc9b1e7d3502e41418d8d4ce1b4695fb7">
+    <rdf:first rdf:resource="http://www.semanticweb.org/robertobarile/ontologies/2026/4/untitled-ontology-11#hasMessage"/>
+    <rdf:rest rdf:nodeID="N7a85f7c484234563a0407e2616f19fcf"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Nd45ae6e5bee0400aae01c94d17c3f784">
+    <rdf:first rdf:resource="http://www.semanticweb.org/robertobarile/ontologies/2026/4/untitled-ontology-11#FoundationModel"/>
+    <rdf:rest rdf:nodeID="N7f8b845512bb49db976f3be94a2fb1cd"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/robertobarile/ontologies/2026/4/untitled-ontology-11">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Ontology"/>
+    <rdfs:comment>https://creativecommons.org/licenses/by/4.0/</rdfs:comment>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Ndbb8bb92d76342aa849487d879d99ec2">
+    <rdf:first rdf:resource="http://www.semanticweb.org/robertobarile/ontologies/2026/4/untitled-ontology-11#Prompt"/>
+    <rdf:rest rdf:nodeID="N3bfb38776fb84c6f941eee02def4b914"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N40119395fe794b5da160bda1ba160a1b">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <owl:unionOf rdf:nodeID="N53a01e11b6584417b5a41595d435328e"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N531a54b99d7c4ebe922655ed855ace4d">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <owl:intersectionOf rdf:nodeID="N10a8ddc4cfb844089925aaccf98d7332"/>
+    <owl:equivalentClass rdf:nodeID="N61e74d245be2401fb41620bec92f48ac"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N10a8ddc4cfb844089925aaccf98d7332">
+    <rdf:first rdf:resource="http://www.semanticweb.org/robertobarile/ontologies/2026/4/untitled-ontology-11#Prompt"/>
+    <rdf:rest rdf:nodeID="N89877c8fb9874466b9dd8b62a9f41fd6"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Nb7555d1673a54ae281c6fa6f06721cda">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+    <owl:onProperty rdf:resource="http://www.semanticweb.org/robertobarile/ontologies/2026/4/untitled-ontology-11#supportedDataModality"/>
+    <owl:allValuesFrom rdf:resource="http://www.semanticweb.org/robertobarile/ontologies/2026/4/untitled-ontology-11#dataModality"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Naf3ccb4117fa4fd8ba5421c0fab3b5cb">
+    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#List"/>
+    <rdf:first>code</rdf:first>
+    <rdf:rest rdf:nodeID="Na9d64188bcae4391b3edbb4d6e13c444"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Nf9d91294dad7474ca32465f9a7523da7">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+    <owl:onProperty rdf:resource="http://www.semanticweb.org/robertobarile/ontologies/2026/4/untitled-ontology-11#modelFamily"/>
+    <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+    <owl:onDataRange rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Nfd09c83aded74c62af5aeed1e5216261">
+    <rdf:first rdf:resource="http://www.semanticweb.org/robertobarile/ontologies/2026/4/untitled-ontology-11#Constraint"/>
+    <rdf:rest rdf:nodeID="Nd45ae6e5bee0400aae01c94d17c3f784"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N104049cc044c4297a73432448ebe3715">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <owl:unionOf rdf:nodeID="N516ba9dcd73146b880a2ab91e6e786ca"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N22a14ef6beb04f699c1328a89ca287d5">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <owl:unionOf rdf:nodeID="N810552d3d5ca460ab55f6e769414740e"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/robertobarile/ontologies/2026/4/untitled-ontology-11#targets">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdfs:domain rdf:resource="http://www.semanticweb.org/robertobarile/ontologies/2026/4/untitled-ontology-11#Chat"/>
+    <rdfs:range rdf:resource="http://www.semanticweb.org/robertobarile/ontologies/2026/4/untitled-ontology-11#Task"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Nd46c27e0633d4c41938441296e291b86">
+    <rdf:first rdf:nodeID="Nf632c140bd2940bea965e8121f5a119a"/>
+    <rdf:rest rdf:nodeID="Nf924d1fc6bb84344805948a74666717d"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Ncced87a3d7034876a29d02eaf675d114">
+    <rdf:first rdf:resource="http://www.semanticweb.org/robertobarile/ontologies/2026/4/untitled-ontology-11#isConsideredSuitableFor"/>
+    <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/2001/XMLSchema#gYear">
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Datatype"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/robertobarile/ontologies/2026/4/untitled-ontology-11#hasFirstPrompt">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#InverseFunctionalProperty"/>
+    <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/robertobarile/ontologies/2026/4/untitled-ontology-11#hasMessage"/>
+    <rdfs:domain rdf:resource="http://www.semanticweb.org/robertobarile/ontologies/2026/4/untitled-ontology-11#Chat"/>
+    <rdfs:range rdf:resource="http://www.semanticweb.org/robertobarile/ontologies/2026/4/untitled-ontology-11#Prompt"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/robertobarile/ontologies/2026/4/untitled-ontology-11#supportedDataModality">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+    <rdfs:domain rdf:resource="http://www.semanticweb.org/robertobarile/ontologies/2026/4/untitled-ontology-11#FoundationModel"/>
+    <rdfs:range rdf:resource="http://www.semanticweb.org/robertobarile/ontologies/2026/4/untitled-ontology-11#dataModality"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N5a03077207874023ada4cfba96f78045">
+    <rdf:first rdf:resource="http://www.semanticweb.org/robertobarile/ontologies/2026/4/untitled-ontology-11#Response"/>
+    <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Na6f1966c15374db2b7abe7be10f5f143">
+    <rdf:first rdf:resource="http://www.semanticweb.org/robertobarile/ontologies/2026/4/untitled-ontology-11#Response"/>
+    <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N810552d3d5ca460ab55f6e769414740e">
+    <rdf:first rdf:resource="http://www.semanticweb.org/robertobarile/ontologies/2026/4/untitled-ontology-11#Prompt"/>
+    <rdf:rest rdf:nodeID="N6168b096d0794f008a5655489309e2f3"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Ncc61e49f44f84692ae4bd257047c7602">
+    <rdf:first rdf:resource="http://www.semanticweb.org/robertobarile/ontologies/2026/4/untitled-ontology-11#Prompt"/>
+    <rdf:rest rdf:nodeID="Nfce0bc1f89d749f5bc9549ebf8f80c82"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/robertobarile/ontologies/2026/4/untitled-ontology-11#chat1">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://www.semanticweb.org/robertobarile/ontologies/2026/4/untitled-ontology-11#Chat"/>
+    <untitled-ontology-11:hasFirstPrompt rdf:resource="http://www.semanticweb.org/robertobarile/ontologies/2026/4/untitled-ontology-11#prompt1"/>
+    <untitled-ontology-11:isHeldWith rdf:resource="http://www.semanticweb.org/robertobarile/ontologies/2026/4/untitled-ontology-11#model"/>
+    <untitled-ontology-11:targets rdf:resource="http://www.semanticweb.org/robertobarile/ontologies/2026/4/untitled-ontology-11#task1"/>
+    <untitled-ontology-11:hasMessage rdf:resource="http://www.semanticweb.org/robertobarile/ontologies/2026/4/untitled-ontology-11#prompt1"/>
+    <untitled-ontology-11:hasMessage rdf:resource="http://www.semanticweb.org/robertobarile/ontologies/2026/4/untitled-ontology-11#response1"/>
+    <untitled-ontology-11:hasMessage rdf:resource="http://www.semanticweb.org/robertobarile/ontologies/2026/4/untitled-ontology-11#prompt2"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/robertobarile/ontologies/2026/4/untitled-ontology-11#isAdoptedIn">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdfs:domain rdf:resource="http://www.semanticweb.org/robertobarile/ontologies/2026/4/untitled-ontology-11#PromptingTechnique"/>
+    <rdfs:range rdf:resource="http://www.semanticweb.org/robertobarile/ontologies/2026/4/untitled-ontology-11#Prompt"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/robertobarile/ontologies/2026/4/untitled-ontology-11#Task">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:nodeID="Ne07063834f2d49e1bb6de443d17ec34b"/>
+    <rdfs:subClassOf rdf:nodeID="Nf5f3faf258f5455c8b356f3deaec1797"/>
+    <rdfs:subClassOf rdf:nodeID="N975e6e3b2c804f00994935bc4ce08193"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/robertobarile/ontologies/2026/4/untitled-ontology-11#modelFamily">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+    <rdfs:domain rdf:resource="http://www.semanticweb.org/robertobarile/ontologies/2026/4/untitled-ontology-11#FoundationModel"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N4c5452dd0c9f46a9912a25a94366419f">
+    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#List"/>
+    <rdf:first>natural language</rdf:first>
+    <rdf:rest rdf:nodeID="N16e100594f4b4bcb994e560b8026680a"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Nae20c5d635714825939733e2569e7d52">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+    <owl:onProperty rdf:resource="http://www.semanticweb.org/robertobarile/ontologies/2026/4/untitled-ontology-11#operator"/>
+    <owl:allValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/robertobarile/ontologies/2026/4/untitled-ontology-11#directlyFollows">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AsymmetricProperty"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#IrreflexiveProperty"/>
+    <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/robertobarile/ontologies/2026/4/untitled-ontology-11#follows"/>
+    <rdfs:domain rdf:nodeID="N40119395fe794b5da160bda1ba160a1b"/>
+    <rdfs:range rdf:nodeID="N428a532d5af948ee907be0880af1293d"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/robertobarile/ontologies/2026/4/untitled-ontology-11#isConsideredSuitableFor">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdfs:domain rdf:resource="http://www.semanticweb.org/robertobarile/ontologies/2026/4/untitled-ontology-11#PromptingTechnique"/>
+    <rdfs:range rdf:resource="http://www.semanticweb.org/robertobarile/ontologies/2026/4/untitled-ontology-11#Task"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/robertobarile/ontologies/2026/4/untitled-ontology-11#hasMessage">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdfs:domain rdf:resource="http://www.semanticweb.org/robertobarile/ontologies/2026/4/untitled-ontology-11#Chat"/>
+    <rdfs:range rdf:nodeID="N8a0b5ac9e357473eac204adb3c3c3c12"/>
+    <owl:propertyChainAxiom rdf:nodeID="Nc9b1e7d3502e41418d8d4ce1b4695fb7"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/robertobarile/ontologies/2026/4/untitled-ontology-11#PromptingTechnique">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:nodeID="Ne4f16e1125794b3eb42c0b5f2fdf3ec8"/>
+    <rdfs:subClassOf rdf:nodeID="Naea36869e7f14020bb95f704104008e6"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/robertobarile/ontologies/2026/4/untitled-ontology-11#hasVariantAncestor">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#TransitiveProperty"/>
+    <rdfs:domain rdf:resource="http://www.semanticweb.org/robertobarile/ontologies/2026/4/untitled-ontology-11#FoundationModel"/>
+    <rdfs:range rdf:resource="http://www.semanticweb.org/robertobarile/ontologies/2026/4/untitled-ontology-11#FoundationModel"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/robertobarile/ontologies/2026/4/untitled-ontology-11#hasArchitecture">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+    <rdfs:domain rdf:resource="http://www.semanticweb.org/robertobarile/ontologies/2026/4/untitled-ontology-11#FoundationModel"/>
+    <rdfs:range rdf:resource="http://www.semanticweb.org/robertobarile/ontologies/2026/4/untitled-ontology-11#Architecture"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/robertobarile/ontologies/2026/4/untitled-ontology-11#architecture1">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://www.semanticweb.org/robertobarile/ontologies/2026/4/untitled-ontology-11#Architecture"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N129eaf8ce14347e2b320d5875b354d37">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <owl:intersectionOf rdf:nodeID="Nd46c27e0633d4c41938441296e291b86"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Nade7d2e86f6d499e9e7560a8a5ed68fa">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <owl:unionOf rdf:nodeID="Ncc61e49f44f84692ae4bd257047c7602"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N975e6e3b2c804f00994935bc4ce08193">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+    <owl:onProperty rdf:resource="http://www.semanticweb.org/robertobarile/ontologies/2026/4/untitled-ontology-11#targetDataModality"/>
+    <owl:allValuesFrom rdf:resource="http://www.semanticweb.org/robertobarile/ontologies/2026/4/untitled-ontology-11#dataModality"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N36fad4598a374ea4979f20510597809c">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+    <owl:onProperty rdf:resource="http://www.semanticweb.org/robertobarile/ontologies/2026/4/untitled-ontology-11#releaseYear"/>
+    <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+    <owl:onDataRange rdf:resource="http://www.w3.org/2001/XMLSchema#gYear"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N65a781b96eae44c0afecd40c1c8231ee">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+    <owl:onProperty rdf:resource="http://www.semanticweb.org/robertobarile/ontologies/2026/4/untitled-ontology-11#variable"/>
+    <owl:someValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/robertobarile/ontologies/2026/4/untitled-ontology-11#Chat">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:nodeID="N129eaf8ce14347e2b320d5875b354d37"/>
+    <rdfs:subClassOf rdf:nodeID="N7bc60ec6b8494180b5d2baa61698a950"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/robertobarile/ontologies/2026/4/untitled-ontology-11#prompting_technique1">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://www.semanticweb.org/robertobarile/ontologies/2026/4/untitled-ontology-11#PromptingTechnique"/>
+    <untitled-ontology-11:isAdoptedIn rdf:resource="http://www.semanticweb.org/robertobarile/ontologies/2026/4/untitled-ontology-11#prompt1"/>
+    <untitled-ontology-11:isConsideredSuitableFor rdf:resource="http://www.semanticweb.org/robertobarile/ontologies/2026/4/untitled-ontology-11#task1"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N85f0a03c1d684b9c9f2aa8ab994ef299">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+    <owl:onProperty rdf:resource="http://www.semanticweb.org/robertobarile/ontologies/2026/4/untitled-ontology-11#hasArchitecture"/>
+    <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/robertobarile/ontologies/2026/4/untitled-ontology-11#Architecture"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Na011504554a34297a45687c8dd9282b0">
+    <rdf:first rdf:nodeID="Nada34112711a4ce59558d19f24575971"/>
+    <rdf:rest rdf:nodeID="Ncced87a3d7034876a29d02eaf675d114"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/robertobarile/ontologies/2026/4/untitled-ontology-11#Architecture">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:nodeID="N2fe5b0f0972841a2b0136b69b2bb0a9a"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N7a85f7c484234563a0407e2616f19fcf">
+    <rdf:first rdf:nodeID="N283e8115cc324ad189580ef7dbcfb6be"/>
+    <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N414dc6d3ab1748cba6850525a5671757">
+    <rdf:first rdf:resource="http://www.semanticweb.org/robertobarile/ontologies/2026/4/untitled-ontology-11#Prompt"/>
+    <rdf:rest rdf:nodeID="N74e5b16a55c244c3b9675ebddd27612f"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N61e74d245be2401fb41620bec92f48ac">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+    <owl:onProperty rdf:nodeID="N170699b12d284a8285f14b8b07a3926c"/>
+    <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/robertobarile/ontologies/2026/4/untitled-ontology-11#Chat"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N29f76e72df1644dc8d2d4c762a07c032">
+    <rdf:first rdf:resource="http://www.semanticweb.org/robertobarile/ontologies/2026/4/untitled-ontology-11#Response"/>
+    <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/robertobarile/ontologies/2026/4/untitled-ontology-11#dataModality">
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Datatype"/>
+    <owl:equivalentClass rdf:nodeID="Ned671208a7d04c5ab302ba4fde6c6b9b"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N3f0bcf3d74914760b870e68a2cb34681">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+    <owl:onProperty rdf:resource="http://www.semanticweb.org/robertobarile/ontologies/2026/4/untitled-ontology-11#operator"/>
+    <owl:someValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N7f8b845512bb49db976f3be94a2fb1cd">
+    <rdf:first rdf:resource="http://www.semanticweb.org/robertobarile/ontologies/2026/4/untitled-ontology-11#Prompt"/>
+    <rdf:rest rdf:nodeID="Nf1ac1780e52c4e5d84ff8eb2e4efac56"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N344158fd7532446a880cfc9757556405">
+    <owl:inverseOf rdf:resource="http://www.semanticweb.org/robertobarile/ontologies/2026/4/untitled-ontology-11#hasMessage"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N16e100594f4b4bcb994e560b8026680a">
+    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#List"/>
+    <rdf:first>video</rdf:first>
+    <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/robertobarile/ontologies/2026/4/untitled-ontology-11#model3">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://www.semanticweb.org/robertobarile/ontologies/2026/4/untitled-ontology-11#FoundationModel"/>
+    <untitled-ontology-11:hasVariant rdf:resource="http://www.semanticweb.org/robertobarile/ontologies/2026/4/untitled-ontology-11#model"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Nfdaa5243b51647498b3e3a517f7bb295">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <owl:complementOf rdf:nodeID="N4e7bcd48af9645b3a6abe48793db8572"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N89877c8fb9874466b9dd8b62a9f41fd6">
+    <rdf:first rdf:nodeID="Nfdaa5243b51647498b3e3a517f7bb295"/>
+    <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N170699b12d284a8285f14b8b07a3926c">
+    <owl:inverseOf rdf:resource="http://www.semanticweb.org/robertobarile/ontologies/2026/4/untitled-ontology-11#hasFirstPrompt"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Naea36869e7f14020bb95f704104008e6">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+    <owl:onProperty rdf:resource="http://www.semanticweb.org/robertobarile/ontologies/2026/4/untitled-ontology-11#isConsideredSuitableFor"/>
+    <owl:allValuesFrom rdf:resource="http://www.semanticweb.org/robertobarile/ontologies/2026/4/untitled-ontology-11#Task"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N516ba9dcd73146b880a2ab91e6e786ca">
+    <rdf:first rdf:resource="http://www.semanticweb.org/robertobarile/ontologies/2026/4/untitled-ontology-11#Prompt"/>
+    <rdf:rest rdf:nodeID="N29f76e72df1644dc8d2d4c762a07c032"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N585ec0d4213b44db8391a0ee39161189">
+    <rdf:first rdf:nodeID="N231f91ab2c57469cbeadc5e5a54d22f4"/>
+    <rdf:rest rdf:nodeID="Ndeaf51fe325e45bf9a91a7ae0e0b5c6f"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N428a532d5af948ee907be0880af1293d">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <owl:unionOf rdf:nodeID="N414dc6d3ab1748cba6850525a5671757"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Nf1ac1780e52c4e5d84ff8eb2e4efac56">
+    <rdf:first rdf:resource="http://www.semanticweb.org/robertobarile/ontologies/2026/4/untitled-ontology-11#Response"/>
+    <rdf:rest rdf:nodeID="N288a1f78e121401291e3c50c12d45f56"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/robertobarile/ontologies/2026/4/untitled-ontology-11#prompt2">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://www.semanticweb.org/robertobarile/ontologies/2026/4/untitled-ontology-11#Prompt"/>
+    <untitled-ontology-11:directlyFollows rdf:resource="http://www.semanticweb.org/robertobarile/ontologies/2026/4/untitled-ontology-11#response1"/>
+    <untitled-ontology-11:isInChatWithFoundationModel rdf:resource="http://www.semanticweb.org/robertobarile/ontologies/2026/4/untitled-ontology-11#model"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/robertobarile/ontologies/2026/4/untitled-ontology-11#Prompt">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N288a1f78e121401291e3c50c12d45f56">
+    <rdf:first rdf:resource="http://www.semanticweb.org/robertobarile/ontologies/2026/4/untitled-ontology-11#Task"/>
+    <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N6168b096d0794f008a5655489309e2f3">
+    <rdf:first rdf:resource="http://www.semanticweb.org/robertobarile/ontologies/2026/4/untitled-ontology-11#Response"/>
+    <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Nc57323771a67464ab8fa547d782ee8f7">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+    <owl:onProperty rdf:resource="http://www.semanticweb.org/robertobarile/ontologies/2026/4/untitled-ontology-11#hasEvolution"/>
+    <owl:allValuesFrom rdf:resource="http://www.semanticweb.org/robertobarile/ontologies/2026/4/untitled-ontology-11#FoundationModel"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N3ce31f6c3bc5450c80816db00e3cbd11">
+    <rdf:first rdf:resource="http://www.semanticweb.org/robertobarile/ontologies/2026/4/untitled-ontology-11#Prompt"/>
+    <rdf:rest rdf:nodeID="Nc56300123b064ec59991dfd776e67846"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N79d2c29c3a2b49c8b702b2ccc13c75af">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+    <owl:members rdf:nodeID="N48c085a0e4584e1ebd170411b97d9e3f"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Nf924d1fc6bb84344805948a74666717d">
+    <rdf:first rdf:nodeID="N5c7e6fb2c6a64a239cefdffce19a0a17"/>
+    <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N48c085a0e4584e1ebd170411b97d9e3f">
+    <rdf:first rdf:resource="http://www.semanticweb.org/robertobarile/ontologies/2026/4/untitled-ontology-11#Architecture"/>
+    <rdf:rest rdf:nodeID="Ne730a0a2175b406ab110476f519ac781"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N57890ee658734ab680a80ea6730b4e53">
+    <rdf:first rdf:resource="http://www.semanticweb.org/robertobarile/ontologies/2026/4/untitled-ontology-11#targets"/>
+    <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+  </rdf:Description>
+</rdf:RDF>
